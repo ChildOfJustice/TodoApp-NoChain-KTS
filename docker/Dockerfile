@@ -1,4 +1,4 @@
-FROM openjdk:8u131-jre-alpine
+FROM openjdk:23-ea-17-jdk-bullseye
 COPY ./build/libs/todo.jar /app/todo.jar
 CMD ["java", "-jar", "/app/todo.jar"]
 EXPOSE 8080
