@@ -8,8 +8,8 @@ ext {
     buildNumber = System.getenv('BUILD_NUMBER') ?: 'dev'
 }
 
-jar {
-    baseName = 'todo'
+bootJar {
+    archiveBaseName.set('todo')
     // version = buildNumber
 }
 
