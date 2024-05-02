@@ -20,7 +20,7 @@ ext {
 }
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 task dockerfile(type: Copy) {
